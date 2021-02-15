@@ -1,70 +1,23 @@
-# Getting Started with Create React App
+<img src = 'src/choice-bot.jpg' alt = 'Choice bot portrait.' width = '100px'>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Choice Bot 2.0
 
-## Available Scripts
+### Can't decide? Let Choice Bot decide your fate.
 
-In the project directory, you can run:
+The Choice Bot is one of my favorite projects. Born out of the frustration experienced when my family tries in vain to decide where to have dinner, the Choice Bot takes the stress of decision making out of your hands.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Choice Bot will select from any number of given options.
+- Choice Bot decisions are final and binding. Defy Choice Bot at your own peril squishy human.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Technologies
 
-### `npm test`
+- [React](https://reactjs.org/)
+- JavaScript
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Notes
 
-### `npm run build`
+- This is actually my second version Choice Bot app. The first version ([Choice Bot](https://github.com/CaseyPitman/choice-maker)) was a blend of vanilla JavaScript and JQuery. When I began learning React, I couldn't wait to revisit this app. The ability to effortlessly manage state that React offered was perfect for an app that needed to handle a dynamic number of user inputs. I've made quite a few of these little 'toy apps,' but Choice Bot is my favorite. It's simple, it serves a specific purpose, it's fun, and it works. 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- When I made Choice Bot 2.0, I had not yet learned [React Hooks](https://reactjs.org/docs/hooks-intro.html), and as such state is managed via class components. This app seems ripe for a refactor to Hooks. 
